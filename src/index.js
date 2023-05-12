@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faEnvelope, faTimes, faSpinner, faCheck} from '@fortawesome/free-solid-svg-icons';
+library.add(faEnvelope, faTimes, faSpinner, faCheck);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
